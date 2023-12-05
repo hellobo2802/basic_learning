@@ -1,0 +1,118 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    /*
+    int score = 0;  // ?????????????????
+    cout << "???????????????" << endl;
+    cin >> score;
+    cout << "?????????????" << score << endl;
+// ????
+    // if???治?????
+    if(score > 700)
+    {
+        cout << "TsingHua" << endl;
+    }else
+    {s
+        cout << "Peking" << endl;
+    }
+    
+    if(score > 700)
+    {
+        cout << "TsingHua" << endl;
+    }
+    else if(score > 600) // ???????
+    {
+        cout << "Peking" << endl;
+    }
+    else
+    {
+        cout << "XDU" << endl;
+    }
+    
+    if(score > 600)
+    {
+        cout << "???" << endl;
+        if (score > 700)
+        {
+            cout << "TsingHua" << endl;
+        }
+        else if (score >650)
+        {
+            cout << "Peking" << endl;
+        }
+        else
+        {
+            cout << "XDU" << endl;
+        }
+    }
+    else if(score > 500)
+    {
+        cout << "????" << endl;
+    }
+    else if(score > 400)
+    {
+        cout << "????" << endl;
+    }
+    else
+    {
+        cout << "δ?????????????????" << endl;
+    }
+    
+   // ???С???????
+   double pig1 =0, pig2 = 0, pig3 = 0;
+   cout << "???????????С??(pig1,pig2,pig3)??????" << endl;
+   for (int i = 0; i < 3; i++)
+   {
+       if(i == 0)
+       {
+        cin >> pig1;
+       }
+       else if(i == 1)
+       {
+        cin >> pig2;
+       }
+       else
+       {
+        cin >> pig3;
+       }
+       // cin >> a >> b >> c; ?????????????? >> a >> b >> c
+   }
+   
+   if(pig1 >= pig2 )
+   {
+    if(pig3 >= pig1)
+    {
+     cout << "pig3??????????" << pig3 << endl;
+    }
+    else
+    {
+     cout << "pig1??????????" << pig1 << endl;
+    }
+   }
+   else
+   {
+    if(pig3 >= pig2)
+    {
+     cout << "pig3??????????" << pig3 << endl;
+    }
+    else
+    {
+     cout << "pig2??????????" << pig2 << endl;
+    }
+   }
+   */
+    //  ????????
+    int a = 10, b = 30;
+    int c = a > b ? a : b;
+    cout << "c = " << c << endl;
+    // C++??????????????????????????????и??????
+    cout << "a = " << a << endl;
+    (a < b ? a : b) = 0;
+    cout << "a = " << a << endl;
+    
+   
+   
+    system("pause");
+    return 0;
+}
